@@ -2,9 +2,9 @@
   "name": "stuff",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "tsc -p . && node dist/main.js"
   },
   "author": "",
   "license": "ISC",
